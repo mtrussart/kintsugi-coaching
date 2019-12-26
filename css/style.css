@@ -8469,7 +8469,7 @@ h1, h2, h3, h4, h5,
   font-weight: 900;
   font-size: 50px;
   line-height: 1.1;
-  color: #000000; }
+  color: #FFF; }
 
 .ftco-volunteer .img-volunteer {
   background-size: cover;
@@ -8477,7 +8477,9 @@ h1, h2, h3, h4, h5,
   background-position: top center; }
   @media (min-width: 992px) {
     .ftco-volunteer .img-volunteer {
-      margin-top: -70px; } }
+      /*margin-top: -70px;*/
+  }
+}
 
 .ftco-volunteer .about-text h2 {
   font-weight: 900;
@@ -8959,7 +8961,7 @@ textarea.form-control {
     background-position: top center; }
     @media (min-width: 992px) {
       .testimony-section .testimony-img {
-        margin-top: -150px; } }
+        /*margin-top: -150px;*/ } }
   .testimony-section .overlay {
     position: absolute;
     top: 0;
@@ -9525,3 +9527,8 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+p.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
