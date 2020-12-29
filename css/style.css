@@ -8952,8 +8952,16 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #2F528A; }
-  .testimony-section .testimony-img {
+  background: #2F528A;
+  color:white;
+font-size: 18px;
+text-align: justify;
+}
+.testimony-section h3 {
+  color:white;
+  text-align: center;
+  }
+.testimony-section .testimony-img {
     display: block;
     width: 100%;
     background-size: cover;
